@@ -31,7 +31,7 @@ SHORTLINKBOT = Client('ShortlinkBot',
 
 @SHORTLINKBOT.on_message(filters.command(['start','help']))
 async def start(_, update):
-    markup = InlineKeyboardMarkup([[InlineKeyboardButton("My Owner 👮", url=f"https://t.me/{OWNER}")]])
+    markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔥 Powered By 🔥", url=f"https://t.me/{OWNER}")]])
     await update.reply(
         f"**Hi {update.chat.first_name}!**\n\n"
         "I'm shortlink bot. Just send me link and get adsless short link",
