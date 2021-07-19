@@ -9,10 +9,6 @@ Make a short link by using [Bit.ly](https://bit.ly/) API key Or With [Da.gd](htt
 #### The Simple Way
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-### Developer 
-* Telegram [Mrvishal2k2](https://t.me/Mrvishal_2k2) 
-* You can checkout my bots At [BotDunia](https://t.me/BotDunia)
- 
 
 #### Required Variables
 
