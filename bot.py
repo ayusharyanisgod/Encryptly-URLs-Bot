@@ -47,9 +47,7 @@ async def link_handler(_, update):
         await update.reply(message, quote=True)
         return
     message = f"Here is your shortlink\n {shortened_url}"
-    markup = InlineKeyboardMarkup([[InlineKeyboardButton("Link 🔗", url=shortened_url)],
-                                  ([[InlineKeyboardButton("Powered By", url="https://t.me/TPVNetwork")]])
-                                  ])
+    markup = InlineKeyboardMarkup([[InlineKeyboardButton("Link 🔗", url=shortened_url)]])
     
     
     # i don't think this bot with get sending message error so no need of exceptions
